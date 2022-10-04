@@ -12,6 +12,9 @@
 
 - [Free courses on ACG Oct 2022](https://acloudguru.com/blog/news/whats-free-at-acg)
 - [Creating user and role in K8s](https://killercoda.com/chadmcrowell/scenario/kubernetes-create-user)
+- [How HTTPS works](https://youtu.be/T4Df5_cojAs)
+- [PKI - part 1](https://youtu.be/aCDgFH1i2B0)
+- [PKI - part 2](https://youtu.be/Jefr7wFLu3M)
 
 ## WEEK 3
 
