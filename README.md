@@ -10,6 +10,9 @@
 
 ## WEEK 2
 
+- [Free courses on ACG Oct 2022](https://acloudguru.com/blog/news/whats-free-at-acg)
+- [Creating user and role in K8s](https://killercoda.com/chadmcrowell/scenario/kubernetes-create-user)
+
 ## WEEK 3
 
 ## WEEK 4
