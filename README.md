@@ -15,6 +15,7 @@
 - [How HTTPS works](https://youtu.be/T4Df5_cojAs)
 - [PKI - part 1](https://youtu.be/aCDgFH1i2B0)
 - [PKI - part 2](https://youtu.be/Jefr7wFLu3M)
+- [Chapter 1 - Section 6](https://youtu.be/1Aq4RRq32gM)
 
 ## WEEK 3
 
