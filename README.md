@@ -17,6 +17,14 @@
 - [PKI - part 2](https://youtu.be/Jefr7wFLu3M)
 - [Chapter 1 - Section 6](https://youtu.be/1Aq4RRq32gM)
 
+### CHALLENGES
+
+> Put all YAML files in WEEK2 directory
+
+1. Create the YAML for a certificate signing request.
+2. Create the YAML for a `role` named "pod-reader" that allows users to perform get, watch and list on pods.
+3. Create the YAML for a `roleBinding` named "admin-binding", in the namespace "acme", granting permissions for the "admin" ClusterRole to a user named "bob".
+
 ## WEEK 3
 
 ## WEEK 4
