@@ -27,6 +27,19 @@
 
 ## WEEK 3
 
+- [VIDEO: Create custom image and push to DockerHub](https://youtu.be/_H6X96dvqBw)
+- [VIDEO: Deployment vs. StatefulSet](https://youtu.be/pPQKAR1pA9U)
+- [VIDEO: Pods and Containers](https://youtu.be/5cNrTU6o3Fw)
+- [VIDEO: Pod Lifecycle](https://youtu.be/wlYESb124xM)
+- [VIDEO: Create Pods & Deployment](https://youtu.be/7bA0gTroJjw)
+### CHALLENGES
+
+> Put all YAML files in WEEK3 directory
+
+1. Take the image that you built in the first video above and deploy it as a pod in Kubernetes
+2. Create a deployment with the image used in the previous challenge and scale it to 5 replicas
+3. Create a second deployment that uses the image "mysql:8" and include an environment variable that is the MYSQL default password
+
 ## WEEK 4
 
 ## WEEK 5
