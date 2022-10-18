@@ -42,6 +42,23 @@
 
 ## WEEK 4
 
+- [VIDEO: What is Helm and Helm Charts](https://youtu.be/-ykwb1d0DXU)
+- [VIDEO: Introduction to Helm](https://youtu.be/5_J7RWLLVeQ)
+- [VIDEO: Hands on w/Helm](https://youtu.be/6d6L4-ADF-M)
+- [Helm Quickstart](https://helm.sh/docs/intro/quickstart/)
+- [The Big Three Concepts](https://helm.sh/docs/intro/using_helm/)
+- [Helm Tutorial](https://www.freecodecamp.org/news/what-is-a-helm-chart-tutorial-for-kubernetes-beginners/)
+- [Helm vs. Kustomize](https://harness.io/blog/helm-vs-kustomize)
+
+### CHALLENGES
+
+> Put all YAML files in WEEK4 Directory
+
+1. Install the nginx ingress controller nginx-stable via https://helm.nginx.com/stable
+2. Install Hashicorp Vault via helm chart `hashicorp/vault` at https://helm.releases.hashicorp.com
+3. Override the values file for vault using the default here: https://github.com/hashicorp/vault-helm/blob/main/values.yaml
+4. Create a helm chart from scratch and deploy it to Kubernetes
+
 ## WEEK 5
 
 ## WEEK 6
