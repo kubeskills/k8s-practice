@@ -61,6 +61,21 @@
 
 ## WEEK 5
 
+- [VIDEO: Types of Services in K8s](https://youtu.be/T4Z7visMM4E)
+- [Services - K8s Documentation](https://kubernetes.io/docs/concepts/services-networking/service/)
+- [EXERCISE: Use a service to expose your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/)
+- [EXERCISE: Using Source IP](https://kubernetes.io/docs/tutorials/services/source-ip/)
+- [EXERCISE: Access services running in K8s](https://killercoda.com/examples/scenario/network-traffic-kubernetes)
+
+### CHALLENGES
+
+> Put all the files for these exercises in the WEEK5 directory
+
+1. Create a NodePort service in K8s that uses port 30000 on the node and port 8080 on the container
+2. Only use the kubectl command-line to create a deployment named 'nginx-deploy' that uses the `nginx` image, exposed on port 80. Only 1 replica will be used. 
+3. Again, only use the kubectl command-line to expose the deployment 'nginx-deploy' and use the target port of 8080.
+4. Change the service named 'kubernetes' already running in the default namespace to a NodePort type service using the kubectl command line
+
 ## WEEK 6
 
 ## WEEK 7
