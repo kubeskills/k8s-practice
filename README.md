@@ -92,8 +92,22 @@
 4. Look at the rollout history, then go back to the previous rollout (roll back)
 
  
-
 ## WEEK 7
+
+- [VIDEO: Network Policies](https://youtu.be/oBf5lrmquYI?t=944)
+- [VIDEO: Network Policy & Service Mesh Differences](https://youtu.be/lHC7xpFack8?t=973)
+- [VIDEO + GITHUB REPO: Network Policies](https://youtu.be/ka0C09CAfho?t=7615)
+- [DOCS: Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+- [Network Policy Tutorial](https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/)
+
+### CHALLENGES
+
+1. Deploy the following resources in Kubernetes: https://gist.github.com/chadmcrowell/7e5cbb782bf2b9e90c6abe8cd8cd39b0
+2. Start a new pod with the image `radial/busyboxplus:curl`, get a shell to it, and run `curl http://db:15984` to try to communicate from pod to pod
+3. Create a network policy that will deny all traffic from pod to pod
+4. Create another network policy that applies to pods that have the label `app=db`. Allow traffic from pods that have the label `app=api` and only over port `5984`.
+5. Create another network policy that applies to pods that have the label `app=web`. Allow traffic from pods that have the label `app=web` on port `3000`. Allow traffic out to pods that have the label `app=db` over port `5984`. Also allow traffic to pods in the kube-system namespace that match label `k8s-app=kube-dns` on port 53.
+6. Start a new pod with the image `radial/busyboxplus:curl` and label app=api, get a shell to it, and run `curl http://db:15984` to try to communicate from pod to pod
 
 ## WEEK 8
 
